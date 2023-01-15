@@ -1,3 +1,9 @@
+"""
+~ Singleton Pattern ensures only instance of class is created.(Creational Design Pattern)
+~ Usage - When Control access to shared database or file.
+        - When provide access to global variable. 
+"""
+
 from abc import ABCMeta, abstractclassmethod
 
 class IPerson(metaclass=ABCMeta):
